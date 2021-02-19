@@ -98,6 +98,7 @@ mkdir -p /data/bt/index/db /data/bt/index/binlog
 ```
 cd spider
 indexer -c sphinx.conf hash
+indexer -c sphinx.conf hash_delta
 searchd -c sphinx.conf
 ```
 
